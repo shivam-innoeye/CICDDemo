@@ -20,8 +20,15 @@ class CICDDemoTests: XCTestCase {
 
     func testAditionOperation() {
         let x = 20
+
+
         let y = 30
+
+        
         let total = x + y
+
+
+
         XCTAssertEqual(total, 50, "Equal")
     }
 }
