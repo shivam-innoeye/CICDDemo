@@ -8,26 +8,63 @@
 
 /* Begin PBXBuildFile section */
 		1839F311269C37CA0021A92A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839F310269C37CA0021A92A /* AppDelegate.swift */; };
-		1839F313269C37CA0021A92A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839F312269C37CA0021A92A /* SceneDelegate.swift */; };
 		1839F315269C37CA0021A92A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839F314269C37CA0021A92A /* ViewController.swift */; };
 		1839F318269C37CA0021A92A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1839F316269C37CA0021A92A /* Main.storyboard */; };
 		1839F31A269C37CB0021A92A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1839F319269C37CB0021A92A /* Assets.xcassets */; };
 		1839F31D269C37CB0021A92A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1839F31B269C37CB0021A92A /* LaunchScreen.storyboard */; };
+		1839F32F269C4F1A0021A92A /* CICDDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839F32E269C4F1A0021A92A /* CICDDemoTests.swift */; };
+		1839F33F269C52860021A92A /* CICDDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839F33E269C52860021A92A /* CICDDemoUITests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1839F331269C4F1A0021A92A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1839F305269C37C90021A92A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1839F30C269C37CA0021A92A;
+			remoteInfo = CICDDemo;
+		};
+		1839F341269C52860021A92A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1839F305269C37C90021A92A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1839F30C269C37CA0021A92A;
+			remoteInfo = CICDDemo;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1839F30D269C37CA0021A92A /* CICDDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CICDDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1839F310269C37CA0021A92A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1839F312269C37CA0021A92A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1839F314269C37CA0021A92A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1839F317269C37CA0021A92A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1839F319269C37CB0021A92A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1839F31C269C37CB0021A92A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1839F31E269C37CB0021A92A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1839F32C269C4F1A0021A92A /* CICDDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CICDDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1839F32E269C4F1A0021A92A /* CICDDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CICDDemoTests.swift; sourceTree = "<group>"; };
+		1839F330269C4F1A0021A92A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1839F33C269C52860021A92A /* CICDDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CICDDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1839F33E269C52860021A92A /* CICDDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CICDDemoUITests.swift; sourceTree = "<group>"; };
+		1839F340269C52860021A92A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1839F30A269C37CA0021A92A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1839F329269C4F1A0021A92A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1839F339269C52860021A92A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				1839F30F269C37CA0021A92A /* CICDDemo */,
+				1839F32D269C4F1A0021A92A /* CICDDemoTests */,
+				1839F33D269C52860021A92A /* CICDDemoUITests */,
 				1839F30E269C37CA0021A92A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				1839F30D269C37CA0021A92A /* CICDDemo.app */,
+				1839F32C269C4F1A0021A92A /* CICDDemoTests.xctest */,
+				1839F33C269C52860021A92A /* CICDDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,7 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				1839F310269C37CA0021A92A /* AppDelegate.swift */,
-				1839F312269C37CA0021A92A /* SceneDelegate.swift */,
 				1839F314269C37CA0021A92A /* ViewController.swift */,
 				1839F316269C37CA0021A92A /* Main.storyboard */,
 				1839F319269C37CB0021A92A /* Assets.xcassets */,
@@ -65,6 +105,24 @@
 				1839F31E269C37CB0021A92A /* Info.plist */,
 			);
 			path = CICDDemo;
+			sourceTree = "<group>";
+		};
+		1839F32D269C4F1A0021A92A /* CICDDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1839F32E269C4F1A0021A92A /* CICDDemoTests.swift */,
+				1839F330269C4F1A0021A92A /* Info.plist */,
+			);
+			path = CICDDemoTests;
+			sourceTree = "<group>";
+		};
+		1839F33D269C52860021A92A /* CICDDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1839F33E269C52860021A92A /* CICDDemoUITests.swift */,
+				1839F340269C52860021A92A /* Info.plist */,
+			);
+			path = CICDDemoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +145,42 @@
 			productReference = 1839F30D269C37CA0021A92A /* CICDDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		1839F32B269C4F1A0021A92A /* CICDDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1839F333269C4F1A0021A92A /* Build configuration list for PBXNativeTarget "CICDDemoTests" */;
+			buildPhases = (
+				1839F328269C4F1A0021A92A /* Sources */,
+				1839F329269C4F1A0021A92A /* Frameworks */,
+				1839F32A269C4F1A0021A92A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1839F332269C4F1A0021A92A /* PBXTargetDependency */,
+			);
+			name = CICDDemoTests;
+			productName = CICDDemoTests;
+			productReference = 1839F32C269C4F1A0021A92A /* CICDDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1839F33B269C52860021A92A /* CICDDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1839F343269C52860021A92A /* Build configuration list for PBXNativeTarget "CICDDemoUITests" */;
+			buildPhases = (
+				1839F338269C52860021A92A /* Sources */,
+				1839F339269C52860021A92A /* Frameworks */,
+				1839F33A269C52860021A92A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1839F342269C52860021A92A /* PBXTargetDependency */,
+			);
+			name = CICDDemoUITests;
+			productName = CICDDemoUITests;
+			productReference = 1839F33C269C52860021A92A /* CICDDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -98,6 +192,14 @@
 				TargetAttributes = {
 					1839F30C269C37CA0021A92A = {
 						CreatedOnToolsVersion = 12.3;
+					};
+					1839F32B269C4F1A0021A92A = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 1839F30C269C37CA0021A92A;
+					};
+					1839F33B269C52860021A92A = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 1839F30C269C37CA0021A92A;
 					};
 				};
 			};
@@ -115,6 +217,8 @@
 			projectRoot = "";
 			targets = (
 				1839F30C269C37CA0021A92A /* CICDDemo */,
+				1839F32B269C4F1A0021A92A /* CICDDemoTests */,
+				1839F33B269C52860021A92A /* CICDDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +234,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1839F32A269C4F1A0021A92A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1839F33A269C52860021A92A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -139,11 +257,39 @@
 			files = (
 				1839F315269C37CA0021A92A /* ViewController.swift in Sources */,
 				1839F311269C37CA0021A92A /* AppDelegate.swift in Sources */,
-				1839F313269C37CA0021A92A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1839F328269C4F1A0021A92A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1839F32F269C4F1A0021A92A /* CICDDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1839F338269C52860021A92A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1839F33F269C52860021A92A /* CICDDemoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1839F332269C4F1A0021A92A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1839F30C269C37CA0021A92A /* CICDDemo */;
+			targetProxy = 1839F331269C4F1A0021A92A /* PBXContainerItemProxy */;
+		};
+		1839F342269C52860021A92A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1839F30C269C37CA0021A92A /* CICDDemo */;
+			targetProxy = 1839F341269C52860021A92A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1839F316269C37CA0021A92A /* Main.storyboard */ = {
@@ -317,6 +463,80 @@
 			};
 			name = Release;
 		};
+		1839F334269C4F1A0021A92A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CICDDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ss.CICDDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CICDDemo.app/CICDDemo";
+			};
+			name = Debug;
+		};
+		1839F335269C4F1A0021A92A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CICDDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ss.CICDDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CICDDemo.app/CICDDemo";
+			};
+			name = Release;
+		};
+		1839F344269C52860021A92A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CICDDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ss.CICDDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CICDDemo;
+			};
+			name = Debug;
+		};
+		1839F345269C52860021A92A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CICDDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ss.CICDDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CICDDemo;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -334,6 +554,24 @@
 			buildConfigurations = (
 				1839F322269C37CB0021A92A /* Debug */,
 				1839F323269C37CB0021A92A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1839F333269C4F1A0021A92A /* Build configuration list for PBXNativeTarget "CICDDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1839F334269C4F1A0021A92A /* Debug */,
+				1839F335269C4F1A0021A92A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1839F343269C52860021A92A /* Build configuration list for PBXNativeTarget "CICDDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1839F344269C52860021A92A /* Debug */,
+				1839F345269C52860021A92A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
